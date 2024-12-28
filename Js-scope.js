@@ -45,7 +45,7 @@
 //   console.log(b);
 //   two();
 // }
- 
+
 // one();
 
 // if(true){
@@ -55,3 +55,47 @@
 
 // console.log(a);
 
+//LEXICAL
+
+// function outer() {
+//   let a = 1;
+//   function inner() {
+//     return a = a + 1;
+//   }
+
+//   return inner;
+// }
+
+// const ref = outer();
+// console.dir(ref);
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+// console.log(ref());
+
+// function varsity() {
+
+//   let totalNeedToPayment = 50000;
+//   let totalPay = 0;
+
+
+//   return {
+//     payment: function (amount) {
+//       totalNeedToPayment = totalNeedToPayment - amount;
+//       totalPay += amount;
+//       return totalNeedToPayment;
+//     },
+//     pay: function () {
+//       return totalPay;
+//     },
+//   };
+// }
+
+// const final = varsity();
+// console.log(final.payment(40000), final.pay());
