@@ -53,4 +53,14 @@
 // const a = createFunction(4);
 // console.log(a[0]());
 
+// document.getElementById("btn-orange").onclick = function () {
+//   document.body.style.backgroundColor = "orange";
+// };
 
+// document.getElementById("btn-green").onclick = function () {
+//   document.body.style.backgroundColor = "green";
+// };
+
+// function changeColor(color) {
+//   document.body.style.backgroundColor = color;
+// }
