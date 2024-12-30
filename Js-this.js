@@ -185,31 +185,49 @@
 
 // console.log(isPalindrome(121212121212121));
 
-var romanToInt = function (s) {
-  const romanNumerals = {
-    I: 1,
-    V: 5,
-    X: 10,
-    L: 50,
-    C: 100,
-    D: 500,
-    M: 1000,
-  };
-  let result = 0;
+// var romanToInt = function (s) {
+//   const romanNumerals = {
+//     I: 1,
+//     V: 5,
+//     X: 10,
+//     L: 50,
+//     C: 100,
+//     D: 500,
+//     M: 1000,
+//   };
+//   let result = 0;
 
-  const newArr = s.split("").map((num) => num);
+//   const newArr = s.split("");
 
-  for (let i = 0; i < newArr.length; i++) {
-    if (newArr[i] < newArr[i + 1]) {
-      let sub = romanNumerals[newArr[i]] - romanNumerals[newArr[i + 1]];
-      result += sub;
-      i + 2;
-    } else {
-      result += romanNumerals[newArr[i]];
-    }
-  }
+//   for (let i = 0; i < newArr.length; ) {
+//     if (
+//       i + 1 < newArr.length &&
+//       romanNumerals[newArr[i]] < romanNumerals[newArr[i + 1]]
+//     ) {
+//       const sub = romanNumerals[newArr[i + 1]] - romanNumerals[newArr[i]];
+//       result += sub;
+//       i += 2;
+//     } else {
+//       result += romanNumerals[newArr[i]];
+//       i++;
+//     }
+//   }
 
-  return result;
-};
+//   return result;
+// };
 
-console.log(romanToInt("MCMXCIV"));
+// console.log(romanToInt("MCMXCIV"));
+
+// var longestCommonPrefix = function (strs) {
+
+// };
+
+// const strs = ["dog", "racecar", "car"];
+
+// console.log(longestCommonPrefix(strs));
+
+a = 5;
+
+var a;
+
+console.log(a);
