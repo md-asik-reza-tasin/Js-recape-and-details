@@ -226,8 +226,51 @@
 
 // console.log(longestCommonPrefix(strs));
 
-a = 5;
+// a = 5;
 
-var a;
+// var a;
 
-console.log(a);
+// console.log(a);
+
+// Select the canvas element
+// const canvas = document.getElementById('drawingCanvas');
+// const ctx = canvas.getContext('2d');
+
+// // Variables to track drawing state
+// let isDrawing = false;
+// let lastX = 0;
+// let lastY = 0;
+
+// // Start drawing when the mouse is pressed
+// canvas.addEventListener('mousedown', (e) => {
+//   isDrawing = true;
+//   [lastX, lastY] = [e.offsetX, e.offsetY]; // Record the starting position
+// });
+
+// // Draw when the mouse is moving
+// canvas.addEventListener('mousemove', (e) => {
+//   if (!isDrawing) return; // Stop if the mouse is not pressed
+//   ctx.beginPath();
+//   ctx.moveTo(lastX, lastY); // Move to the last recorded position
+//   ctx.lineTo(e.offsetX, e.offsetY); // Draw a line to the current mouse position
+//   ctx.strokeStyle = 'black'; // Line color
+//   ctx.lineWidth = 2; // Line thickness
+//   ctx.stroke();
+//   [lastX, lastY] = [e.offsetX, e.offsetY]; // Update the last position
+// });
+
+// // Stop drawing when the mouse is released
+// canvas.addEventListener('mouseup', () => isDrawing = false);
+
+// // Stop drawing if the mouse leaves the canvas
+// canvas.addEventListener('mouseout', () => isDrawing = false);
+
+var longestCommonPrefix = function (strs) {
+    
+    var flower = strs[0].split('');
+       
+    
+};
+
+let strs = ["flower", "flow", "flight"];
+console.log(longestCommonPrefix(strs));
