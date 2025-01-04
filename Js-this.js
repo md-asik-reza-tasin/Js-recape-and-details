@@ -265,12 +265,16 @@
 // // Stop drawing if the mouse leaves the canvas
 // canvas.addEventListener('mouseout', () => isDrawing = false);
 
-var longestCommonPrefix = function (strs) {
+// var longestCommonPrefix = function (strs) {
     
-    var flower = strs[0].split('');
-       
+//     var flower = strs[0].split('');
     
-};
+    
+    
+// };
 
-let strs = ["flower", "flow", "flight"];
-console.log(longestCommonPrefix(strs));
+// let strs = ["flower", "flow", "flight"];
+// console.log(longestCommonPrefix(strs));
+
+
+
