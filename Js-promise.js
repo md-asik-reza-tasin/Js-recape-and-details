@@ -68,13 +68,26 @@
 // const strs = ["flower", "flow", "flight"];
 // console.log(longestCommonPrefix(strs));
 
-var isValid = function (s) {
-  let splitS = s.split("");
-  for(let one of splitS){
-    console.log(one);
+// var isValid = function (s) {
+//   let splitS = s.split("");
+//   for(let one of splitS){
+//     console.log(one);
     
-  }
-};
+//   }
+// };
 
-let s = "()";
-console.log(isValid(s));
+// let s = "()";
+// console.log(isValid(s));
+
+
+
+function math(a, b){
+  return a + b;
+}
+
+const result = math(1, 2);
+
+console.log(result);
+
+
+
