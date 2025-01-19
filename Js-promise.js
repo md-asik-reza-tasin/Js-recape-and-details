@@ -81,13 +81,20 @@
 
 
 
-function math(a, b){
-  return a + b;
+// function math(a, b){
+//   return a + b;
+// }
+
+// const result = math(1, 2);
+
+// console.log(result);
+
+
+
+function random (){
+  return parseFloat(Math.random(), 2);
 }
 
-const result = math(1, 2);
-
-console.log(result);
-
+console.log(random());
 
 
